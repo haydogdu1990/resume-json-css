@@ -296,17 +296,34 @@ backdrop-filter: blur(3.9px);
 
   .topnav.responsive {
     position: relative;
+    font-size: 2px;
   }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+  
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
+    
   } 
+
+  footer span {
+    font-size: 20px;
+    
+  }
+  footer i {
+    font-size: 20px;
+    
+  }
+  footer a {
+    color: #ddd;
+    font-size: 20px;
+    
+  }
 
   
 }
