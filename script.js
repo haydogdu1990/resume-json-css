@@ -39,9 +39,7 @@ const data=fetch("resume.json")
 
     var user = resume.basics;
 
-    for(let i in user){
-        informations.innerHTML +=`<li>${user[i]}</li>`;
-    }
+  
 
     document.getElementById("myImg").src = user.image;
     document.getElementById("name").innerHTML = user.name;
@@ -56,6 +54,8 @@ const data=fetch("resume.json")
     document.getElementById("linkedin").href=user.profiles.linkedin.url;
 
     document.getElementById("name2").innerHTML = user.name;
+
+    document.getElementById("summary").innerHTML = user.summary;
    
 })
 
