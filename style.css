@@ -326,6 +326,20 @@ backdrop-filter: blur(3.9px);
     text-align: left;
   } 
 
+  footer span {
+    font-size: 20px;
+    
+  }
+  footer i {
+    font-size: 20px;
+    
+  }
+  footer a {
+    color: #ddd;
+    font-size: 20px;
+    
+  }
+
   
 }
     
