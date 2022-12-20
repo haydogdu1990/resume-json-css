@@ -4,9 +4,8 @@ body {
     margin: 0;
     padding: 0;
 
-    background: #FF5F6D;  
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  
-background: linear-gradient(to right, #FFC371, #FF5F6D); 
+    background: #f0f0f0;  
+
 
 font-family: 'Exo', sans-serif;
 
@@ -34,10 +33,10 @@ font-family: 'Exo', sans-serif;
   
   
   .chapter {
-    color:white;
+    color:#0f0f0f;
+    background-color: white;
     
-    
-    border-radius: 60px 2px  60px 2px;
+    border-radius: 5px 5px  5px 5px;
 
 backdrop-filter: blur(4.8px);
 -webkit-backdrop-filter: blur(4.8px);
@@ -47,12 +46,8 @@ backdrop-filter: blur(4.8px);
     
     
     padding: 15px;
-    margin: 4px;
+    margin: 8px;
     
-    background: rgb(110,164,191);
-background: linear-gradient(90deg, rgba(87, 87, 87, 0.9) 0%, rgba(114, 114, 114, 0.8) 100%);
-    
-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     
   }
   .c1 {
@@ -60,12 +55,14 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
     grid-row: 1 / span 4;
     text-align:center;
     
-
+   
+    margin-top:50px;
 
 
     
   }
   .c2 {
+    margin-top:50px;
     grid-column: 1 / span 8;
     grid-row: 1 / span 3;
   }
@@ -78,10 +75,11 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
   
  #myImg{
     width: 80%;
-    border-radius: 40% 2%  40% 2%;
-    margin: 20px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-
+    border-radius: 50%;
+    margin-top: -80px;
+    
+    padding: 10px;
+    background: #f0f0f0;
     
  }
 
@@ -154,28 +152,25 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
     margin:5px;
   }
   .c1 a {
-    color: #fff;
+    color: #0f0f0f;
     font-size: 30px;
     margin:5px;
   }
   
   .c1 a:hover {
-    color: #ddd;
+    color: black;
     
   }
 
   
   footer {
-    color:#ddd;
-    background: linear-gradient(90deg, rgba(87, 87, 87, 0.9) 0%, rgba(114, 114, 114, 0.8) 100%);
-   
-    box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px, rgba(0, 0, 0, 0.3) 13px 13px 13px 13px, rgba(0, 0, 0, 0.2) 0px 3px 0px inset;
+    background-color: white;
+    color: #0f0f0f;
+    opacity: 0.8;
 
+    
 
-backdrop-filter: blur(3.9px);
--webkit-backdrop-filter: blur(3.9px);
-
-display: flex;
+    display: flex;
   justify-content: center;
   align-items: center; 
 
@@ -194,13 +189,13 @@ display: flex;
     margin:5px;
   }
   footer a {
-    color: #ddd;
+    color:#0f0f0f;
     font-size: 30px;
     margin:5px;
   }
   
   footer a:hover {
-    color: #fff;
+    color: #000000;
     
   }
   
@@ -209,19 +204,18 @@ display: flex;
   .topnav {
     overflow: hidden;
     
-    background: linear-gradient(90deg, rgba(87, 87, 87, 0.9) 0%, rgba(114, 114, 114, 0.8) 100%);
+    background-color: white;
    
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    
 
-
-backdrop-filter: blur(3.9px);
--webkit-backdrop-filter: blur(3.9px);
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #0f0f0f;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -229,14 +223,14 @@ backdrop-filter: blur(3.9px);
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-    opacity: 0.5;
+    background-color: #000000;
+    color: white;
+    opacity: 0.8;
   }
   
   .topnav a.active {
     opacity: 0.75;
-    background-color: #dd6031;
+    background-color: #7ea809;
     color: white;
   }
   
@@ -261,6 +255,20 @@ backdrop-filter: blur(3.9px);
       display: block;
   }
 
+  .c1 {
+    
+    
+   
+    margin-top:80px;
+
+
+    
+  }
+  #myImg{
+    width: 50%;
+ 
+ }
+
 
 }
   
@@ -268,10 +276,6 @@ backdrop-filter: blur(3.9px);
     .topnav a:not(:first-child){
       display: none;
     }
-
-    
-
-    
 
 
     .topnav a.icon {
@@ -351,7 +355,7 @@ backdrop-filter: blur(3.9px);
   left: 0;
     width: 100%;
     height:100%;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-color: #f0f0f0;
    
 }
 

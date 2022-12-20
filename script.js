@@ -16,6 +16,11 @@ function myStyle() {
         cssStyle.href="style2.css";
         
     }
+    else if(sayac==1){
+      sayac=2;
+      cssStyle.href="style3.css";
+      
+  }
     else{
         sayac=0;
         cssStyle.href="style.css";
