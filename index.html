@@ -38,11 +38,15 @@
     <header >
     
         <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">Home</a>
+          <a href="#home" id="home" class="active">Home</a>
           
-          <a href="#name2">Menu 1</a>
-          <a href="#menu2">Menu 2</a>
-          <a href="#menu3">Menu 3</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#repository">Repository</a>
+          <a href="#works">Works Experience</a>
+          <a href="#education">Education</a>
+          
+          
     
           <a href="javascript:void(0);" class="iconStyle" onclick="myStyle()"><i class="fa-solid fa-eye"></i></a>
           
@@ -51,11 +55,13 @@
           </a>
         </div>
         </header>
+        <a href="#home" class="up" onclick="topFunction()" id="back-to-top"><i class="fa-solid fa-chevron-up"></i></a>
     
       <div class="grid-container">
+
     
         
-    <div class="chapter c1">
+    <div class="chapter c1" >
 
       <img id="myImg"  src="" alt="avatar">
       <h1 id="name" >name</h1>
@@ -81,27 +87,37 @@
       
     </div>
       
-      <div class="chapter c2">
+      <div class="chapter c2" id="about">
         <h2>About</h2>
         <p id="summary" >summary</p>
 
-        <h2>Work Experience</h2>
+        
     
         
   
         
       </div>
         
-      <div class="chapter c3">
+      <div class="chapter c3" id="skills">
       
         <h2>Skills</h2>
-        <p class="skillsHtml"></p>
+        
+        
+          <p class="skillsHtml"></p>
+        
 
       </div>
-        
-        <div class="chapter c4">
 
-          <h2>Works</h2>
+      <div class="chapter c4" id="repository">
+        <h2>Repository</h2>
+
+
+       </div>
+
+        
+        <div class="chapter c5" id="works">
+
+          <h2>Works Experience</h2>
 
           <p class="worksHtml"></p>
         
@@ -110,7 +126,7 @@
         </div>
 
 
-    <div class="chapter c5">
+    <div class="chapter c6" id="education">
       <h2>Education</h2>
 
       <p class="educationHtml"></p>
@@ -118,7 +134,10 @@
 
      </div>
 
-    <div class="chapter c6">
+     <div class="chapter c7" id="interests">
+      
+
+
       <h2>Interests</h2>
           <p>&nbsp&nbspLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra nam libero justo laoreet sit..</p>
     
@@ -126,26 +145,11 @@
           <p>&nbsp&nbspLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra nam libero justo laoreet sit..</p>
     </div>
 
+    
+
 
     </div> 
-      <footer>
-        <span id="name2">name2</span>
-        
-        <pre>-</pre>
-       
-        <i class="fa-solid fa-chess"></i>
-        <pre>-</pre>
-        <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="" target="_blank"><i class="fa-brands fa-github"></i></i></a>
-        <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-  
-      
-        
-        
-        <p></p>
-        
-        
-      </footer>
+     
     </body>
 <script src="script.js" defer></script>
 </html>

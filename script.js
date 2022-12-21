@@ -6,7 +6,33 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  // Get the button
+let mybutton = document.getElementById("back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "flex";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
+
+
+
+  
   let sayac=0;
+
 function myStyle() {
     let cssStyle=document.getElementById("cssStyle");
     
@@ -34,6 +60,7 @@ function myStyle() {
 
 
 let skillsHtml=document.getElementsByClassName("skillsHtml")[0];
+
 let worksHtml=document.getElementsByClassName("worksHtml")[0];
 let educationHtml=document.getElementsByClassName("educationHtml")[0];
 
@@ -48,6 +75,10 @@ const data=fetch("resume.json")
 
     document.getElementById("myImg").src = user.image;
     document.getElementById("name").innerHTML = user.name;
+
+    document.getElementById("home").innerHTML = user.name;
+    
+    
     document.getElementById("label").innerHTML = user.label;
 
     document.getElementById("location").innerHTML = user.location.city+", "+user.location.countryCode;
@@ -58,7 +89,7 @@ const data=fetch("resume.json")
     document.getElementById("github").href=user.profiles.github.url;
     document.getElementById("linkedin").href=user.profiles.linkedin.url;
 
-    document.getElementById("name2").innerHTML = user.name;
+   
 
     document.getElementById("summary").innerHTML = user.summary;
 
@@ -66,29 +97,33 @@ const data=fetch("resume.json")
     let skills=resume.skills;
     for(let i in skills){
       let list=skills[i];
+      skillsHtml.innerHTML +=`<hr>`;
       
       skillsHtml.innerHTML +=`<h3>${list.situation}</h3>`;
       //skillsHtml.innerHTML +=`<span>${list.level}</span>`;
       //skillsHtml.innerHTML +=`<span>${" "+list.name}</span>`;
-
-
-      console.log();
-      for(let j in list.keywords){
-        
-        skillsHtml.innerHTML +=`<span class="skills">${list.keywords[j]}</span>`;
-
-      }
+      //display: flex;
+      //flex-wrap: wrap;
 
       
-      skillsHtml.innerHTML +=`<hr>`;
+      
+      for(let j in list.keywords){
+        
+        skillsHtml.innerHTML +=`<span class="skills" style="display: inline-block;">${list.keywords[j]}</span>`;
 
-  }
+      }
+      
+      
+     
+     
+
+    } 
 
   let works=resume.work;
   for(let i in works){
     let list=works[i];
         
-    
+    worksHtml.innerHTML +=`<hr>`;
     worksHtml.innerHTML +=`<h3>${list.position} - ${list.name}</h3>`;
     
     worksHtml.innerHTML +=`<span class="worksSpan">${list.startDate} - ${list.location}</span>`;
@@ -96,7 +131,7 @@ const data=fetch("resume.json")
     
     worksHtml.innerHTML +=`<p>${list.summary}</p>`;
 
-    worksHtml.innerHTML +=`<hr>`;
+    
 
 }
 

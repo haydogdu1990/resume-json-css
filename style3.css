@@ -6,12 +6,41 @@ body {
     margin: 0;
     padding: 0;
 
-    background: #f0f0f0;  
+    background: #e46868;  
 
 
-font-family: 'Exo', sans-serif;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
   }
+
+  #back-to-top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+   
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    background-color: white;
+    color:black;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+    text-decoration: none;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  }
+
+  
+
+  
+
   
   .topnav .iconStyle {
     float: right;
@@ -28,7 +57,7 @@ font-family: 'Exo', sans-serif;
     grid-template-rows: auto auto auto auto auto auto;
 
     
-    margin:2% 5%;
+    margin:15px 20px;
     
   }
   
@@ -78,6 +107,9 @@ backdrop-filter: blur(4.8px);
     grid-column: 1 / span 12;
   }
   .c6 {
+    grid-column: 1 / span 12;
+  }
+  .c7 {
     grid-column: 1 / span 12;
   }
   

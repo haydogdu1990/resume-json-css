@@ -12,6 +12,34 @@ body {
 font-family: 'Exo', sans-serif;
 
   }
+
+  #back-to-top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+   
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    
+    color:black;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+    text-decoration: none;
+    color:white;
+    background: rgb(110,164,191);
+background: linear-gradient(90deg, rgba(110,164,191,0.7) 0%, rgba(255,255,255,0.6) 100%);
+    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+
+
   .topnav .iconStyle {
     float: right;
     
@@ -27,7 +55,7 @@ font-family: 'Exo', sans-serif;
     grid-template-rows: auto auto auto auto auto auto;
 
 
-    margin:60px 5%;
+    margin:20px 20px;
     
   }
   
@@ -66,9 +94,11 @@ background: linear-gradient(90deg, rgba(110,164,191,0.3) 0%, rgba(255,255,255,0.
   .c2 {
     grid-column: 5 / span 12;
     grid-row: 1 / span 3;
+    
   }
   .c3 {
     grid-column: 5 / span 12;
+    
   }
   .c4 {
     grid-column: 1 / span 12;
@@ -77,6 +107,9 @@ background: linear-gradient(90deg, rgba(110,164,191,0.3) 0%, rgba(255,255,255,0.
     grid-column: 1 / span 12;
   }
   .c6 {
+    grid-column: 1 / span 12;
+  }
+  .c7 {
     grid-column: 1 / span 12;
   }
   
@@ -167,11 +200,14 @@ background: linear-gradient(90deg, rgba(110,164,191,0.3) 0%, rgba(255,255,255,0.
     
   }
 
-
+  
   .skills{
     margin:6px;
     padding:6px;
-
+    
+    height: 1.5em;
+    text-align: center;
+    
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
 
@@ -238,12 +274,10 @@ display: flex;
   
   .topnav {
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    z-index: 2;
-    width: 94%;
-    transform: translate(-50%, 0);
+    
+    
+    width: 100%;
+    
 
 
     
