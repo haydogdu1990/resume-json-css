@@ -49,7 +49,26 @@
     "date": "2022.12.13",
     "link":"https://github.com/haydogdu1990/Axios-GET-example-React",
     "viewLink":"https://lively-queijadas-5ebbf5.netlify.app/"
-}],
+},
+{
+  "name": "Calculator-HTML-CSS-JavaScript",
+  "explanation": "Calculator HTML+CSS+JavaScript",
+  "tag": ["javascript","css","html","calculator","css3"],
+  "bestLang": "JavaScript",
+  "date": "2022.12.08",
+  "link":"https://github.com/haydogdu1990/Calculator-HTML-CSS-JavaScript",
+  "viewLink":"https://codepen.io/haydogdu1990/pen/rNKPrzY"
+},
+{
+  "name": "CSS-Responsive-Design-Grid-Layout-Glass-Effect",
+  "explanation": "CSS-Responsive-Design-Grid-Layout-Glass-Effect",
+  "tag": ["css","grid","responsive","layout","effect","css-grid","glass"],
+  "bestLang": "CSS",
+  "date": "2022.12.06",
+  "link":"https://github.com/haydogdu1990/CSS-Responsive-Design-Grid-Layout-Glass-Effect",
+  "viewLink":"https://haydogdu1990.github.io/CSS-Responsive-Design-Grid-Layout-Glass-Effect/"
+}
+],
   
   
 
