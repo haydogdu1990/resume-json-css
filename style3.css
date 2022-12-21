@@ -13,6 +13,10 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
   }
 
+  h4,h3,h2,h1{
+    margin:0.5em;
+  }
+
   #back-to-top{
     position: fixed;
     bottom: 10px;
@@ -203,48 +207,48 @@ backdrop-filter: blur(4.8px);
   }
 
   .skillsHtml span{
-    margin:6px;
+    margin:4px;
     padding:6px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
    }
 
-  
-  footer {
-    background-color: white;
-    color: #0f0f0f;
-    opacity: 0.8;
+   .worksSpan{
+    margin:2px;
+    padding:6px;
+    font-size: 0.9em;
+    font-style: italic;
 
     
+  }
 
-    display: flex;
-  justify-content: center;
-  align-items: center; 
+  .interestsHtml span{
+    margin:4px;
+    padding:6px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+   }
 
-    
-    height: 50px;
-    padding:10px;
+   .repositoryHtml span{
+    margin:4px;
+    padding:6px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+   }
+
+   .repositoryHtml .link{
+    background-color: rgb(212, 252, 252);
+   }
+
+   .repositoryHtml .link:hover{
+    background-color: rgb(165, 196, 196);
+   }
+
+
+
   
-    grid-column: 1 / span 12;
-  }
-  footer span {
-    font-size: 30px;
-    margin:5px;
-  }
-  footer i {
-    font-size: 30px;
-    margin:5px;
-  }
-  footer a {
-    color:#0f0f0f;
-    font-size: 30px;
-    margin:5px;
-  }
-  
-  footer a:hover {
-    color: #000000;
-    
-  }
   
   
   
@@ -362,19 +366,7 @@ backdrop-filter: blur(4.8px);
     
   } 
 
-  footer span {
-    font-size: 20px;
-    
-  }
-  footer i {
-    font-size: 20px;
-    
-  }
-  footer a {
-    color: #ddd;
-    font-size: 20px;
-    
-  }
+
 
   
 }

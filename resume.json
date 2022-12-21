@@ -6,7 +6,8 @@
     "name": "Hasan AYDOĞDU",
     "label": "Front-End Developer",
     "image": "https://avatars.githubusercontent.com/u/29636342?v=4",
-    "summary": "Front-End Developer alanında gelişimim devam ediyor. JavaScrip programlama dilinin React.JS kütüphanesi ve bağlantılı teknolojileri kullanarak web uygulamaları geliştirmekteyim. Back-End tarafında da bilgimi artırmak istiyorum. Güncel teknolojileri takip edip sektörde yer almak istiyorum.",
+    "summary": "My development continues in the field of Front-End Developer. I develop web applications using JavaScrip programming language's React.JS library and related technologies. I also want to increase my knowledge on the back-end side. I want to follow and end current technologies.",
+    "summarytr": "Front-End Developer alanında gelişimim devam ediyor. JavaScrip programlama dilinin React.JS kütüphanesi ve bağlantılı teknolojileri kullanarak web uygulamaları geliştirmekteyim. Back-End tarafında da bilgimi artırmak istiyorum. Güncel teknolojileri takip edip sektörde yer almak istiyorum.",
     "website": "#",
     "email": "haydogdu1990@gmail.com",
     "location": {
@@ -30,6 +31,28 @@
       }  
     }
   },
+
+  "repository":[{
+      "name": "resume-json-css",
+      "explanation": "It pulls the data from the json file and loads it into the page.",
+      "tag": ["javascript","resume","json","css3"],
+      "bestLang": "CSS",
+      "date": "2022.12.21",
+      "link":"https://github.com/haydogdu1990/resume-json-css",
+      "viewLink":"https://haydogdu1990.github.io/resume-json-css/"
+  },
+  {
+    "name": "Axios-GET-example-React",
+    "explanation": "Axios-GET-example-React",
+    "tag": ["react","reactjs","axios"],
+    "bestLang": "JavaScript",
+    "date": "2022.12.13",
+    "link":"https://github.com/haydogdu1990/Axios-GET-example-React",
+    "viewLink":"https://lively-queijadas-5ebbf5.netlify.app/"
+}],
+  
+  
+
   "education": [
     {
       "endDate": "2012",
@@ -91,7 +114,7 @@
   ],
   "work": [
     {
-      "summary": "özet",
+      "summary": "edelkrone is a corporate company that produces camera equipment. I have been working as a laser marking manager in this company for 3 years.",
       "website": "https://edelkrone.com/",
       "name": "Edelkrone",
       "location": "Ankara",
@@ -102,7 +125,7 @@
     
     
     {
-      "summary": "özet",
+      "summary": "Europower Enerji offers a wide range of engineering services such as project design, project management, automation & SCADA, commissioning, inspection, field tests and training services. I worked in this company as an IT Technical Service Specialist for 1 year.",
       "website": "https://www.europowerenerji.com.tr/",
       "name": "Europower Enerji",
       "location": "Ankara",
@@ -111,7 +134,7 @@
       "highlights": ["", "", "", ""]
     },
     {
-      "summary": "özet",
+      "summary": "Europower Enerji offers a wide range of engineering services such as project design, project management, automation & SCADA, commissioning, inspection, field tests and training services. I worked in this company as an Labeling and Branding Specialist for 3 year.",
       "website": "https://www.europowerenerji.com.tr/",
       "name": "Europower Enerji",
       "location": "Ankara",
@@ -122,18 +145,5 @@
     
   ],
 
-  "interests": [
-    {
-      "name": "Drawing"
-    },
-    {
-      "name": "Algorithm"
-    },
-    {
-      "name": "Sudoku"
-    },
-    {
-      "name": "Open Source"
-    }
-  ]
+  "interests": ["Drawing", "Algorithm","Sudoku","Open Source"]
 }

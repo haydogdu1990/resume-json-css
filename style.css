@@ -13,6 +13,10 @@ font-family: 'Exo', sans-serif;
 
   }
 
+  h4,h3,h2,h1{
+    margin:0.5em;
+  }
+
   #back-to-top{
     position: fixed;
     bottom: 10px;
@@ -202,13 +206,13 @@ background: linear-gradient(90deg, rgba(110,164,191,0.3) 0%, rgba(255,255,255,0.
 
   
   .skills{
-    margin:6px;
+    margin:4px;
     padding:6px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
     
-    height: 1.5em;
-    text-align: center;
-    
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
   }
 
   .worksSpan{
@@ -220,57 +224,33 @@ background: linear-gradient(90deg, rgba(110,164,191,0.3) 0%, rgba(255,255,255,0.
     
   }
 
-  
-  footer {
-    color:white;
-    background: rgb(32,70,89);
-background: linear-gradient(90deg, rgba(32,70,89,0.4) 0%, rgba(80,169,214,0.4) 100%);
-    
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-
-
-backdrop-filter: blur(3.9px);
--webkit-backdrop-filter: blur(3.9px);
-
-position: fixed;
-bottom:0;
-left: 50%;
-transform: translate(-50%, 0);
-  
-display: flex;
-  justify-content: center;
-  align-items: center; 
-
-
-    text-align:center;
-    height: 30px;
-    width: 94%;
-    padding:10px;
-    border-radius: 20px 20px 0 0 ;
-  
-    grid-column: 1 / span 12;
-  }
-  footer span {
-    font-size: 1.5em;
-    margin:5px;
-  }
-
-  footer i {
-    font-size: 1.5em;
-    margin:5px;
-  }
-  footer a {
+  .interestsHtml span{
+    margin:4px;
+    padding:6px;
+    border-radius: 5px;
+    text-decoration: none;
     color:white;
     
-    margin:5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
   }
   
-  footer a:hover {
-    color: #ddd;
+  .repositoryHtml span{
+    margin:4px;
+    padding:6px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
     
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
   }
-  
-  
+
+   .repositoryHtml .link{
+    background-color: rgb(212, 252, 252,0.3);
+   }
+
+   .repositoryHtml .link:hover{
+    background-color: rgb(165, 196, 196);
+   }
   
   .topnav {
     overflow: hidden;
@@ -336,7 +316,7 @@ backdrop-filter: blur(3.9px);
     .grid-container {
     
       
-      margin:60px 2%;
+      
       display: block;
   }
 
@@ -361,7 +341,7 @@ backdrop-filter: blur(3.9px);
     .grid-container {
     
       display: block;
-      margin:60px 2%;
+      
   }
 
   #myImg{
