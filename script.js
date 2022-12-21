@@ -66,8 +66,8 @@ let educationHtml=document.getElementsByClassName("educationHtml")[0];
 let interestsHtml=document.getElementsByClassName("interestsHtml")[0];
 let repositoryHtml=document.getElementsByClassName("repositoryHtml")[0];
 
-
-const data=fetch("resume.json")
+let resume="resume.json";
+const data=fetch(resume)
 .then(response=>response.json())
 .then(resume=>{
     
