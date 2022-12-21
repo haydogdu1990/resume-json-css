@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-
+html{
+  scroll-behavior:smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -44,7 +46,7 @@ backdrop-filter: blur(4.8px);
   
     border-radius: 10px;
     
-    padding: 15px;
+    padding: 15px 25px 15px 25px ;
     margin: 4px;
     
     background: rgb(110,164,191);
@@ -69,6 +71,12 @@ background: linear-gradient(90deg, rgba(110,164,191,0.3) 0%, rgba(255,255,255,0.
     grid-column: 5 / span 12;
   }
   .c4 {
+    grid-column: 1 / span 12;
+  }
+  .c5 {
+    grid-column: 1 / span 12;
+  }
+  .c6 {
     grid-column: 1 / span 12;
   }
   
@@ -156,6 +164,23 @@ background: linear-gradient(90deg, rgba(110,164,191,0.3) 0%, rgba(255,255,255,0.
   
   .c1 a:hover {
     color: #ddd;
+    
+  }
+
+
+  .skills{
+    margin:6px;
+    padding:6px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .worksSpan{
+    margin:6px;
+    padding:6px;
+    font-size: 0.7em;
+    font-style: italic;
+
     
   }
 

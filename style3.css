@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
+html{
+  scroll-behavior:smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -45,7 +47,7 @@ backdrop-filter: blur(4.8px);
   
     
     
-    padding: 15px;
+    padding: 15px 25px 15px 25px ;
     margin: 8px;
     
     
@@ -70,6 +72,12 @@ backdrop-filter: blur(4.8px);
     grid-column: 1 / span 8;
   }
   .c4 {
+    grid-column: 1 / span 12;
+  }
+  .c5 {
+    grid-column: 1 / span 12;
+  }
+  .c6 {
     grid-column: 1 / span 12;
   }
   
@@ -161,6 +169,13 @@ backdrop-filter: blur(4.8px);
     color: black;
     
   }
+
+  .skillsHtml span{
+    margin:6px;
+    padding:6px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+   }
 
   
   footer {

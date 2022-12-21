@@ -33,18 +33,18 @@ function myStyle() {
   
 
 
-let informations=document.getElementsByClassName("informations")[0];
-
-
+let skillsHtml=document.getElementsByClassName("skillsHtml")[0];
+let worksHtml=document.getElementsByClassName("worksHtml")[0];
+let educationHtml=document.getElementsByClassName("educationHtml")[0];
 
 const data=fetch("resume.json")
 .then(response=>response.json())
 .then(resume=>{
     
 
-    var user = resume.basics;
+    let user = resume.basics;
 
-  
+    
 
     document.getElementById("myImg").src = user.image;
     document.getElementById("name").innerHTML = user.name;
@@ -61,6 +61,55 @@ const data=fetch("resume.json")
     document.getElementById("name2").innerHTML = user.name;
 
     document.getElementById("summary").innerHTML = user.summary;
+
+
+    let skills=resume.skills;
+    for(let i in skills){
+      let list=skills[i];
+      
+      skillsHtml.innerHTML +=`<h3>${list.situation}</h3>`;
+      //skillsHtml.innerHTML +=`<span>${list.level}</span>`;
+      //skillsHtml.innerHTML +=`<span>${" "+list.name}</span>`;
+
+
+      console.log();
+      for(let j in list.keywords){
+        
+        skillsHtml.innerHTML +=`<span class="skills">${list.keywords[j]}</span>`;
+
+      }
+
+      
+      skillsHtml.innerHTML +=`<hr>`;
+
+  }
+
+  let works=resume.work;
+  for(let i in works){
+    let list=works[i];
+        
+    
+    worksHtml.innerHTML +=`<h3>${list.position} - ${list.name}</h3>`;
+    
+    worksHtml.innerHTML +=`<span class="worksSpan">${list.startDate} - ${list.location}</span>`;
+    
+    
+    worksHtml.innerHTML +=`<p>${list.summary}</p>`;
+
+    worksHtml.innerHTML +=`<hr>`;
+
+}
+
+//educationHtml studyType
+
+let education=resume.education;
+
+educationHtml.innerHTML +=`<h3>${education[0].institution}</h3>`;
+  educationHtml.innerHTML +=`<h4>${education[0].area} (${education[0].studyType}) </h4>`;
+  educationHtml.innerHTML +=`<p class="worksSpan">(${education[0].startDate}-${education[0].endDate})</p>`;
+
+
+
    
 })
 
