@@ -185,7 +185,7 @@ let interests=resume.interests;
 
 
 for(let i in interests){
-  interestsHtml.innerHTML +=`<span class="interestsSpan">${interests[i]}</span>`;
+  interestsHtml.innerHTML +=`<span style="display:inline-block;" class="interestsSpan">${interests[i]}</span>`;
 
 }
 
