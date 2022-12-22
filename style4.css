@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 
 body {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Jost', sans-serif;
   background-color: #f0f0f0;
+  
 }
+
+h1,h2,h3,h4,h5{
+  margin:2px;
+
+}
+p{
+  margin:2px 16px 2px 16px;
+  
+
+}
+
 
 #back-to-top{
   background-color: white;
@@ -22,24 +35,28 @@ body {
   }
 
   .c1 {
-    grid-column: 9 / span 12;
-    grid-row: 1 / span 4;
+
+    grid-column: 1 / span 12;
     
-    margin-top:50px; 
+    
+    margin-top:80px;
   }
   .c2 {
-    margin-top:50px;
-    grid-column: 1 / span 8;
-    grid-row: 1 / span 3;
+    
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 3;
   }
   .c3 {
-    grid-column: 1 / span 8;
+    grid-column: 7 / span 12;
+    grid-row: 2 / span 3;
   }
   .c4 {
-    grid-column: 1 / span 12;
+    grid-column: 1 / span 6;
+    grid-row: 5 / span 6;
   }
   .c5 {
-    grid-column: 1 / span 12;
+    grid-column: 7 / span 12;
+    grid-row: 5 / span 6;
   }
   .c6 {
     grid-column: 1 / span 12;
@@ -51,7 +68,7 @@ body {
 
 
  #myImg{
-    width: 80%;
+    width: 180px;
     border-radius: 50%;
     margin-top: -80px;
     display: flex;
@@ -64,29 +81,32 @@ body {
  }
 
  #name{
-    margin: 10px;
+    margin: 2px;
     font-size: 2em;
     text-align: center;
+    
     
  }
 
  #label{
-    margin: 10px;
+    margin: 2px;
     font-size: 1.5em;
     text-align: center;
+    
  }
 
  hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px;
+    border-top: 3px dotted rgba(240, 240, 240, 1);
+    border-width: thick;
 }
 
 
 .contact-details{
-  display: inline-flex;
-  flex-direction: column;
+  display: inline-block;
+  
   width: 100%;
   padding-left: 15px;
 
@@ -94,10 +114,10 @@ body {
 
 .contact-details .adiv{
   
-  width: 100%;
+  
   
 
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: left;
   text-align: left;
@@ -130,7 +150,7 @@ body {
   color: #000000;
   text-decoration: none;
   margin-left: 5px;
-  font-style: italic;
+  
   
   
   
@@ -141,7 +161,7 @@ body {
   color: #000000;
   text-decoration: none;
   margin-left: 5px;
-  font-style: italic;
+  
   
   
   
@@ -224,10 +244,24 @@ body {
     display: block;
     color: #0f0f0f;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 5px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
+    
   }
+
+  
+
+  .topnav a:not(:first-child):not(.iconStyle){
+    
+    
+    border-right: 2px solid rgba(240, 240, 240, 1);
+    
+  }
+
+
+  
+    
   
   .topnav a:hover {
     background-color: #000000;
@@ -258,23 +292,11 @@ body {
     .grid-container {
     
       
-      margin:2% 2%;
+      
       display: block;
   }
 
-  .c1 {
-    
-    
-   
-    margin-top:80px;
-
-
-    
-  }
-  #myImg{
-    width: 50%;
- 
- }
+  
 
 
 }
@@ -282,6 +304,13 @@ body {
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child){
       display: none;
+    }
+
+    .topnav a:not(:first-child):not(.iconStyle){
+    
+    
+      border-right: 0px;
+      
     }
 
 
@@ -296,14 +325,7 @@ body {
       margin:2% 2%;
   }
 
-  #myImg{
-    width: 70%;
-    
-    
-    
-
-    
- }
+ 
 
   .topnav.responsive {
     position: relative;
