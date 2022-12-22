@@ -52,6 +52,16 @@ function myStyle() {
     cssStyle.href="style4.css";
     
 }
+else if(sayac==3){
+  sayac=4;
+  cssStyle.href="style5.css";
+  
+}
+else if(sayac==4){
+  sayac=5;
+  cssStyle.href="style6.css";
+  
+}
     else{
         sayac=0;
         cssStyle.href="style.css";
