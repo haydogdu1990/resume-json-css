@@ -31,7 +31,7 @@ window.onscroll = function() {scrollFunction()};
 
 
   
-  let sayac=2;
+  let sayac=3;
 
 function myStyle() {
     let cssStyle=document.getElementById("cssStyle");
@@ -47,6 +47,11 @@ function myStyle() {
       cssStyle.href="style3.css";
       
   }
+  else if(sayac==2){
+    sayac=3;
+    cssStyle.href="style4.css";
+    
+}
     else{
         sayac=0;
         cssStyle.href="style.css";
@@ -88,9 +93,15 @@ const data=fetch(resume)
     document.getElementById("email").innerHTML = user.email;
     document.getElementById("email").href="mailto:"+user.email;
 
-    document.getElementById("twitter").href=user.profiles.twitter.url;
-    document.getElementById("github").href=user.profiles.github.url;
-    document.getElementById("linkedin").href=user.profiles.linkedin.url;
+    document.getElementById("twitterHtml").href=user.profiles.twitter.url;
+    document.getElementById("githubHtml").href=user.profiles.github.url;
+    document.getElementById("linkedinHtml").href=user.profiles.linkedin.url;
+
+    document.getElementById("linkedinHtml").innerHTML="in/"+user.profiles.linkedin.username;
+    document.getElementById("githubHtml").innerHTML=""+user.profiles.github.username;
+    document.getElementById("twitterHtml").innerHTML="@"+user.profiles.twitter.username;
+
+
 
    
 

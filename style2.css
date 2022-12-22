@@ -1,102 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-html{
-  scroll-behavior:smooth;
-}
+
+
 body {
-    margin: 0;
-    padding: 0;
+  font-family: 'Exo', sans-serif;
+}
 
-    background: #FF5F6D;  
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  
-background: linear-gradient(to right, #FFC371, #FF5F6D); 
-
-font-family: 'Exo', sans-serif;
-
-
-  }
-
-  h4,h3,h2,h1{
-    margin:0.5em;
-  }
-
-  #back-to-top{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 3;
-   
-
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    
-    color:white;
-    background: rgb(110,164,191);
-background: linear-gradient(90deg, rgba(87, 87, 87, 1) 0%, rgba(114, 114, 114, 1) 100%);
-    
-
-    display: none;
-    justify-content: center;
-    align-items: center;
-    
-    text-decoration: none;
-
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    
-  }
-  
-  .topnav .iconStyle {
-    float: right;
-    
-  }
-
- 
+#back-to-top{
+  color:white;
+  background: rgb(110,164,191);
+  background: linear-gradient(90deg, rgba(87, 87, 87, 1) 0%, rgba(114, 114, 114, 1) 100%);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 
 
-  .grid-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto auto auto auto;
-
-    
-    margin:20px 20px;
-    
-  }
-  
-  
-  
   .chapter {
     color:white;
-    
-    
     border-radius: 60px 2px  60px 2px;
-
-backdrop-filter: blur(4.8px);
--webkit-backdrop-filter: blur(4.8px);
-
-
-  
-    
-    
-padding: 15px 25px 15px 25px ;
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    padding: 15px 25px 15px 25px ;
     margin: 4px;
-    
     background: rgb(110,164,191);
-background: linear-gradient(90deg, rgba(87, 87, 87, 0.9) 0%, rgba(114, 114, 114, 0.8) 100%);
-    
-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    
+    background: linear-gradient(90deg, rgba(87, 87, 87, 0.9) 0%, rgba(114, 114, 114, 0.8) 100%);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
+
   .c1 {
     grid-column: 9 / span 12;
     grid-row: 1 / span 4;
-    text-align:center;
-    
-
-
-
-    
+    text-align:center;  
   }
   .c2 {
     grid-column: 1 / span 8;
@@ -138,72 +69,71 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
     
  }
 
- hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
 
-.contact-details{
-    display: inline-block;
-    text-align:left;
-    width: 90%;
-    
+ .contact-details{
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 15px;
 
 }
 
-.contact-details i{
-    
-    padding: 5px 5px 5px 0;
-    font-size: 1em;
-    vertical-align: middle;
-    
-    
-
-}
-
-.contact-details #email{
-    font-size: 1em;
-    padding:5px;
-    margin:0;
-    text-decoration:none;
-    
- 
-}
-
-.contact-details span{
-    
-    padding: 5px;
-    font-size: 1em;
-    vertical-align: middle;
-    
-    
-
-}
-
-.contact-details hover{
-    color: #ddd;
-    
-    
-
-}
-
-
-.c1 a {
-    font-size: 30px;
-    margin:5px;
-  }
-  .c1 a {
-    color: #fff;
-    font-size: 30px;
-    margin:5px;
-  }
+.contact-details .adiv{
   
-  .c1 a:hover {
-    color: #ddd;
-    
-  }
+  width: 100%;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  
+  margin:2px;
+}
+.idiv{
+  
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 ;
+  padding: 0;
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+.c1 i{
+  font-size: 1.2em;
+  margin:0;
+  padding: 0;
+  
+}
+
+.c1 span{
+  
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  font-style: italic;
+  
+  
+  
+}
+.c1 a{
+  
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  font-style: italic;
+  
+  
+  
+}
 
   .skillsHtml span{
     margin:6px;
