@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "theme": "actual"
+  },
+  "basics": {
+    "name": "Hasan AYDOĞDU",
+    "label": "Front-End Developer",
+    "image": "https://avatars.githubusercontent.com/u/29636342?v=4",
+    "summary": "My development continues in the field of Front-End Developer. I develop web applications using JavaScrip programming language's React.JS library and related technologies. I also want to increase my knowledge on the back-end side. I want to follow and end current technologies.",
+    "summarytr": "Front-End Developer alanında gelişimim devam ediyor. JavaScrip programlama dilinin React.JS kütüphanesi ve bağlantılı teknolojileri kullanarak web uygulamaları geliştirmekteyim. Back-End tarafında da bilgimi artırmak istiyorum. Güncel teknolojileri takip edip sektörde yer almak istiyorum.",
+    "website": "#",
+    "email": "haydogdu1990@gmail.com",
+    "location": {
+      "city": "Ankara",
+      "countryCode": "TR"
+    },
+    "profiles": {
+      "twitter":{
+        "username": "hsnaydgd",
+        "url": "https://twitter.com/hsnaydgd"
+      },
+      "github":{
+        "url": "https://github.com/haydogdu1990",
+        "username": "haydogdu1990"
+        
+      },
+      "linkedin":{
+        "username": "haydogdu1990",
+        "url": "https://www.linkedin.com/in/haydogdu1990"
+        
+      }  
+    }
+  },
+
+  "repository":[{
+      "name": "resume-json-css",
+      "explanation": "It pulls the data from the json file and loads it into the page.",
+      "tag": ["javascript","resume","json","css3"],
+      "bestLang": "CSS",
+      "date": "2022.12.21",
+      "link":"https://github.com/haydogdu1990/resume-json-css",
+      "viewLink":"https://haydogdu1990.github.io/resume-json-css/"
+  },
+  {
+    "name": "Axios-GET-example-React",
+    "explanation": "Axios-GET-example-React",
+    "tag": ["react","reactjs","axios"],
+    "bestLang": "JavaScript",
+    "date": "2022.12.13",
+    "link":"https://github.com/haydogdu1990/Axios-GET-example-React",
+    "viewLink":"https://lively-queijadas-5ebbf5.netlify.app/"
+},
+{
+  "name": "Calculator-HTML-CSS-JavaScript",
+  "explanation": "Calculator HTML+CSS+JavaScript",
+  "tag": ["javascript","css","html","calculator","css3"],
+  "bestLang": "JavaScript",
+  "date": "2022.12.08",
+  "link":"https://github.com/haydogdu1990/Calculator-HTML-CSS-JavaScript",
+  "viewLink":"https://codepen.io/haydogdu1990/pen/rNKPrzY"
+},
+{
+  "name": "CSS-Responsive-Design-Grid-Layout-Glass-Effect",
+  "explanation": "CSS-Responsive-Design-Grid-Layout-Glass-Effect",
+  "tag": ["css","grid","responsive","layout","effect","css-grid","glass"],
+  "bestLang": "CSS",
+  "date": "2022.12.06",
+  "link":"https://github.com/haydogdu1990/CSS-Responsive-Design-Grid-Layout-Glass-Effect",
+  "viewLink":"https://haydogdu1990.github.io/CSS-Responsive-Design-Grid-Layout-Glass-Effect/"
+}
+],
+  
+  
+
+  "education": [
+    {
+      "endDate": "2012",
+      "startDate": "2008",
+      "area": "Computer Education and Instructional Technology",
+      "studyType": "Bachelor Degree",
+      "institution": "Gazi University"
+    }
+  ],
+  "references": [
+    {
+      "reference": "",
+      "name": ""
+    },
+    {
+      "reference":"", 
+      "name": ""
+    },
+    {
+      "reference":"",
+      "name": ""
+    },
+    {
+      "reference": "",
+      "name": ""
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML",
+        "CSS3",
+        "Javascript",
+        "React.JS",
+        "Bootstrap"
+      ],
+      "level": "Junior",
+      "name": "Frontend",
+      "situation":"What am i learning..."
+    },
+    {
+      "keywords": ["tailwindcss", "Node.JS", "TypeScript", "Redux", "FastAPI", "Python"],
+      "level": "Junior",
+      "name": "Frontend",
+      "situation":"What i want to learn..."
+    },
+    {
+      "keywords": ["C#", "Java", "PHP", "MySQL"],
+      "level": "Junior",
+      "name": "Backend",
+      "situation":"What did i use before..."
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "awarder": ""
+    }
+  ],
+  "work": [
+    {
+      "summary": "edelkrone is a corporate company that produces camera equipment. I have been working as a laser marking manager in this company for 3 years.",
+      "website": "https://edelkrone.com/",
+      "name": "Edelkrone",
+      "location": "Ankara",
+      "position": "Laser Marking Manager",
+      "startDate": "2019",
+      "highlights": ["", "", "", ""]
+    },
+    
+    
+    {
+      "summary": "Europower Enerji offers a wide range of engineering services such as project design, project management, automation & SCADA, commissioning, inspection, field tests and training services. I worked in this company as an IT Technical Service Specialist for 1 year.",
+      "website": "https://www.europowerenerji.com.tr/",
+      "name": "Europower Enerji",
+      "location": "Ankara",
+      "position": "IT Technical Service Specialist",
+      "startDate": "2017",
+      "highlights": ["", "", "", ""]
+    },
+    {
+      "summary": "Europower Enerji offers a wide range of engineering services such as project design, project management, automation & SCADA, commissioning, inspection, field tests and training services. I worked in this company as an Labeling and Branding Specialist for 3 year.",
+      "website": "https://www.europowerenerji.com.tr/",
+      "name": "Europower Enerji",
+      "location": "Ankara",
+      "position": "Labeling and Branding Specialist",
+      "startDate": "2015",
+      "highlights": ["", "", "", ""]
+    }
+    
+  ],
+
+  "interests": ["Drawing", "Algorithm","Sudoku","Open Source"]
+}
