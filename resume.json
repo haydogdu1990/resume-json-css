@@ -33,6 +33,15 @@
   },
 
   "repository":[{
+      "name": "twitter-web-clone-react",
+      "explanation": "Creating a twitter clone using React NextJS and Storybook",
+      "tag": ["javascript","twitter","clone","css3","reactjs","nextjs","storybook","svgr"],
+      "bestLang": "javascript",
+      "date": "2023.01.15",
+      "link":"https://github.com/haydogdu1990/twitter-web-clone-react",
+      "viewLink":"https://twitter-web-clone-react-7al4.vercel.app/"
+  },    
+    {
       "name": "resume-json-css",
       "explanation": "It pulls the data from the json file and loads it into the page.",
       "tag": ["javascript","resume","json","css3"],
