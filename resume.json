@@ -122,7 +122,7 @@
       "situation":"What am i learning..."
     },
     {
-      "keywords": ["tailwindcss", "Node.JS", "TypeScript", "Redux", "FastAPI", "Python"],
+      "keywords": ["Tailwind CSS", "Node.JS", "Next.js", "TypeScript", "Redux", "FastAPI", "Python", "Flutter", "MongoDB"],
       "level": "Junior",
       "name": "Frontend",
       "situation":"What i want to learn..."
