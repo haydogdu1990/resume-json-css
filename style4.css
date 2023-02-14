@@ -328,6 +328,11 @@ p{
 }
   
   @media screen and (max-width: 600px) {
+    
+    .qr-code{
+    position: flex;
+    }
+    
     .topnav a:not(:first-child){
       display: none;
     }
