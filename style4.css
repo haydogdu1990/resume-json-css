@@ -228,20 +228,15 @@ p{
   .qr-code{
     position: absolute;
     right: 10px;
-    
-    
     width: 100px;
     height: 100px;
     opacity: 0;
-    display: flex;
     padding: 5px;
     border-radius: 10px;
     align-items: center;
     pointer-events: none;
     justify-content: center;
-    border: 1px solid #ccc;
-    
-    
+    border-radius: 5px;
     box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px, rgb(209 213 219) 0px 0px 0px 1px inset;
   }
   .qr-code{
