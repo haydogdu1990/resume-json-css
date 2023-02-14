@@ -161,6 +161,7 @@ for(let i in repository){
   for(let j in repository[i].tag){
     repositoryHtml.innerHTML+=`<span style="display:inline-block;">${repository[i].tag[j]}</span>`;
   }
+     repositoryHtml.innerHTML +=`<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].viewLink}" alt="qr-code">`;
   
   
   
