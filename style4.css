@@ -313,7 +313,9 @@ p{
     
   @media screen and (max-width: 1000px) {
     
-    
+    .qr-code{
+    position: flex;
+    }
     
     .grid-container {
     
