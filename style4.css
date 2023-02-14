@@ -226,7 +226,7 @@ p{
    }
 
   .qr-code{
-    position: relative;
+    position: absolute;
     right: 10px;
     
     
