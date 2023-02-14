@@ -113,22 +113,26 @@
       "keywords": [
         "HTML",
         "CSS3",
+        "Bootstrap",
         "Javascript",
         "React.JS",
-        "Bootstrap"
+        "Next.JS",
+        "Node.JS",
+        "SASS",
+        "Express.JS"
       ],
       "level": "Junior",
       "name": "Frontend",
       "situation":"What am i learning..."
     },
     {
-      "keywords": ["Tailwind CSS", "Node.JS", "Next.js", "TypeScript", "Redux", "FastAPI", "Python", "Flutter", "MongoDB"],
+      "keywords": ["Tailwind CSS","TypeScript","GraphQL", "Redux","Jest.JS", "FastAPI", "Python", "Flutter", "MongoDB", "PostgreSQL"],
       "level": "Junior",
       "name": "Frontend",
       "situation":"What i want to learn..."
     },
     {
-      "keywords": ["C#", "Java", "PHP", "MySQL"],
+      "keywords": ["C#", "Java", "PHP", "MySQL",".NET"],
       "level": "Junior",
       "name": "Backend",
       "situation":"What did i use before..."
