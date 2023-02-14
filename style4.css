@@ -225,6 +225,27 @@ p{
     background-color: rgb(165, 196, 196);
    }
 
+  .qr-code{
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+    pointer-events: none;
+    justify-content: center;
+    border: 1px solid #ccc;
+  }
+  .qr-code{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.05s ease;
+  }
+  .qr-code img{
+    width: 100px;
+  }
+
 
 
   
