@@ -152,6 +152,8 @@ let repository=resume.repository;
 for(let i in repository){
 
   repositoryHtml.innerHTML +=`<hr>`;
+     repositoryHtml.innerHTML +=`<div class="qr-code"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].link}" alt="qr-code"></div>`;
+  
   repositoryHtml.innerHTML+=`<h3 style="display:inline-block;">${repository[i].name}</h3>`;
   repositoryHtml.innerHTML+=`<a target="_blank" href="${repository[i].link}"><span class="link" style="display:inline-block;">Go Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
   repositoryHtml.innerHTML+=`<a target="_blank" href="${repository[i].viewLink}"><span class="link" style="display:inline-block;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
@@ -161,8 +163,7 @@ for(let i in repository){
   for(let j in repository[i].tag){
     repositoryHtml.innerHTML+=`<span style="display:inline-block;">${repository[i].tag[j]}</span>`;
   }
-     repositoryHtml.innerHTML +=`<div class="qr-code"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].link}" alt="qr-code"></div>`;
-  
+    
   
   
 
