@@ -314,7 +314,7 @@ p{
   @media screen and (max-width: 1000px) {
     
     .qr-code{
-    position: flex;
+    display: none;
     }
     
     .grid-container {
@@ -332,7 +332,7 @@ p{
   @media screen and (max-width: 600px) {
     
     .qr-code{
-    position: flex;
+    display: none;
     }
     
     .topnav a:not(:first-child){
