@@ -7,6 +7,7 @@ function myFunction() {
     }
   }
 
+
   // Get the button
 let mybutton = document.getElementById("back-to-top");
 
