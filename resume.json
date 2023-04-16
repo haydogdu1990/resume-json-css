@@ -6,7 +6,7 @@
     "name": "Hasan AYDOĞDU",
     "label": "Front-End Developer",
     "image": "https://avatars.githubusercontent.com/u/29636342?v=4",
-    "summary": "My development continues in the field of Front-End Developer. I develop web applications using JavaScrip programming language's React.JS library and related technologies. I also want to increase my knowledge on the back-end side. I want to follow and end current technologies.",
+    "summary": "Hello, I am a Frontend Developer who can develop web applications and pages using up-to-date technologies. I develop web applications using the React.JS library of the JavaScript programming language and related technologies. I am proficient in using Next.JS, Git, React Router, Redux Toolkit, Tailwind CSS. My passion is to create modern and user-friendly websites and applications. A user-experience-oriented approach is very important to me, and for this reason, I always take care to stick to this principle in the projects I develop. In addition, I continue my education on other technologies such as Jest.JS, FastAPI, GraphQL, React Query, Formik, React Hook Form, React Native, Express.JS, TypeScript, and MongoDB. I am constantly researching new tools and techniques to make the development process more efficient using these technologies. I look forward to working with you with my experience, skills and passion.",
     "summarytr": "Front-End Developer alanında gelişimim devam ediyor. JavaScrip programlama dilinin React.JS kütüphanesi ve bağlantılı teknolojileri kullanarak web uygulamaları geliştirmekteyim. Back-End tarafında da bilgimi artırmak istiyorum. Güncel teknolojileri takip edip sektörde yer almak istiyorum.",
     "website": "#",
     "email": "haydogdu1990@gmail.com",
@@ -32,52 +32,35 @@
     }
   },
 
-  "repository":[{
-      "name": "twitter-web-clone-react",
-      "explanation": "Creating a twitter clone using React NextJS and Storybook",
-      "tag": ["javascript","twitter","clone","css3","reactjs","nextjs","storybook","svgr"],
-      "bestLang": "javascript",
-      "date": "2023.01.15",
-      "link":"https://github.com/haydogdu1990/twitter-web-clone-react",
-      "viewLink":"https://twitter-web-clone-react-7al4.vercel.app/"
-  },    
+  "repository": [
     {
-      "name": "resume-json-css",
-      "explanation": "It pulls the data from the json file and loads it into the page.",
-      "tag": ["javascript","resume","json","css3"],
-      "bestLang": "CSS",
-      "date": "2022.12.21",
-      "link":"https://github.com/haydogdu1990/resume-json-css",
-      "viewLink":"https://haydogdu1990.github.io/resume-json-css/"
-  },
-  {
-    "name": "Axios-GET-example-React",
-    "explanation": "Axios-GET-example-React",
-    "tag": ["react","reactjs","axios"],
-    "bestLang": "JavaScript",
-    "date": "2022.12.13",
-    "link":"https://github.com/haydogdu1990/Axios-GET-example-React",
-    "viewLink":"https://lively-queijadas-5ebbf5.netlify.app/"
-},
-{
-  "name": "Calculator-HTML-CSS-JavaScript",
-  "explanation": "Calculator HTML+CSS+JavaScript",
-  "tag": ["javascript","css","html","calculator","css3"],
-  "bestLang": "JavaScript",
-  "date": "2022.12.08",
-  "link":"https://github.com/haydogdu1990/Calculator-HTML-CSS-JavaScript",
-  "viewLink":"https://codepen.io/haydogdu1990/pen/rNKPrzY"
-},
-{
-  "name": "CSS-Responsive-Design-Grid-Layout-Glass-Effect",
-  "explanation": "CSS-Responsive-Design-Grid-Layout-Glass-Effect",
-  "tag": ["css","grid","responsive","layout","effect","css-grid","glass"],
-  "bestLang": "CSS",
-  "date": "2022.12.06",
-  "link":"https://github.com/haydogdu1990/CSS-Responsive-Design-Grid-Layout-Glass-Effect",
-  "viewLink":"https://haydogdu1990.github.io/CSS-Responsive-Design-Grid-Layout-Glass-Effect/"
-}
-],
+      "name": "Interactive Guide to Flexbox",
+      "explanation": "A tool where you can experience the use of CSS Flexbox without writing code.",
+      "tag": ["css3", "javascript", "html5"],
+      "bestLang": "css3",
+      "date": "2023.03.28",
+      "link": "https://github.com/haydogdu1990/interactive-guide-to-flexbox",
+      "viewLink": "https://haydogdu1990.github.io/interactive-guide-to-flexbox/"
+    },
+    {
+      "name": "React ile Twitter Web Clone",
+      "explanation": "Creating a twitter clone using React NextJS and Storybook",
+      "tag": ["javascript", "css3", "reactjs", "nextjs", "storybook", "svgr"],
+      "bestLang": "reactjs",
+      "date": "2023.01.15",
+      "link": "https://github.com/haydogdu1990/twitter-web-clone-react",
+      "viewLink": "https://twitter-web-clone-react-7al4.vercel.app/"
+    },
+    {
+      "name": "React Guides",
+      "explanation": "This project contains simple applications created to guide the use of React tools.",
+      "tag": ["reactjs"],
+      "bestLang": "reactjs",
+      "date": "2022.04.05",
+      "link": "https://github.com/haydogdu1990/React-Guidest",
+      "viewLink": ""
+    }
+  ],
   
   
 
@@ -111,31 +94,44 @@
   "skills": [
     {
       "keywords": [
-        "HTML",
-        "CSS3",
-        "Bootstrap",
         "Javascript",
         "React.JS",
-        "Next.JS",
         "Node.JS",
+        "Next.JS",
+        "Vite",
+        "Git",
+        "React Router",
+        "Redux Toolkit",
+        "Styled Components",
         "SASS",
-        "Express.JS"
+        "Tailwind CSS"
       ],
       "level": "Junior",
       "name": "Frontend",
-      "situation":"What am i learning..."
+      "situation": "Technologies I Use"
     },
     {
-      "keywords": ["Tailwind CSS","TypeScript","GraphQL", "Redux","Jest.JS", "FastAPI", "Python", "Flutter", "MongoDB", "PostgreSQL"],
+      "keywords": [
+        "Jest.JS",
+        "FastAPI",
+        "GraphQL",
+        "React Query",
+        "Formik",
+        "React Hook Form",
+        "React Native",
+
+        "Express.JS",
+
+        "TypeScript",
+
+        "Go",
+
+        "MongoDB",
+        "PostgreSQL"
+      ],
       "level": "Junior",
       "name": "Frontend",
-      "situation":"What i want to learn..."
-    },
-    {
-      "keywords": ["C#", "Java", "PHP", "MySQL",".NET"],
-      "level": "Junior",
-      "name": "Backend",
-      "situation":"What did i use before..."
+      "situation": "What i want to learn..."
     }
   ],
   "awards": [
