@@ -32,7 +32,7 @@ window.onscroll = function() {scrollFunction()};
 
 
   
-  let sayac=3;
+  let sayac=5;
 
 function myStyle() {
     let cssStyle=document.getElementById("cssStyle");
