@@ -7,5 +7,7 @@
 
 +The page can be displayed in different views using different css templates.
 
+
 Click to view https://haydogdu1990.github.io/resume-json-css/
+
 
